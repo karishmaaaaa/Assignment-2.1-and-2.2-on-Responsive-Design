@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+
+    justify-content: space-between;
+}
+#background img{
+    width: 100%;
+}
+#text{
+    position: absolute;
+    color: white;
+    left: 30px;
+}
+.big{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+.book-img{
+    height: 300px;
+    width: 225px;
+}
+.bold1{
+    font-weight: bold;
+}
+.grey1{
+    color: grey;
+}
+.cartbutton{
+    height: 30px;
+    margin-left: 110px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.cartbutton img{
+    height: 20px;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.games-img{
+    height: 300px;
+    width: 300px;
+}
+#games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#g1{
+    display: inline-block;
+    margin-top: 50px;
+}
+#decor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#h1{
+    display: inline-block;
+    margin-top: 50px;
+}
+.bold3{
+    font-weight: bold;
+    font-size: x-large;
+}
+#face{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+#title1{
+    height: 60px;
+    width: 100px;
+}
+#cart1{
+    height: 30px;
+    width: 30px;
+}
+@media(max-width:768px){
+    .big{
+        font-size: medium;
+        font-weight: bold;
+    }
+       
+    
+}
